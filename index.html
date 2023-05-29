@@ -14,7 +14,7 @@
   <body>
     <div class="wrapper">
       <div class="container">
-        <div class="row">
+        <div class="card row">
           <div class="content_img"></div>
           <div class="content_biograf">
             <h1>Кизиргалеев Марсель</h1>
@@ -23,19 +23,21 @@
               <strong>Resault Scool</strong>
             </p>
             <p>
-              Я люблю
-              <em>отдыхать, рисовать, заниматься спортом и программировать</em>
+              <em
+                >Я люблю отдыхать, рисовать, заниматься спортом и
+                программировать</em
+              >
             </p>
           </div>
         </div>
 
-        <div class="social">
+        <div class="card social">
           <h2>Список социальных сетей</h2>
           <a href="#">Instagram</a>
           <a href="#">Telegram</a>
           <a class="last_links" href="#">Youtube</a>
         </div>
-        <div class="content_hobbi">
+        <div class="card content_hobbi">
           <h2>Мои хобби</h2>
           <ol>
             <li>Путешествия</li>
@@ -46,61 +48,95 @@
           </ol>
         </div>
         <br />
-        <h2>Опыть работы</h2>
-        <table>
-          <thead>
-            <tr>
-              <th>Название</th>
-              <th>Должность</th>
-              <th>Год</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Нагваль</td>
-              <td>Верстальщик</td>
-              <td>2006-2007</td>
-            </tr>
-            <tr>
-              <td>Рекламное агентство</td>
-              <td>Дизайнер</td>
-              <td>2007-2008</td>
-            </tr>
-            <tr>
-              <td>Информреклама</td>
-              <td>Печатник-дизайнер</td>
-              <td>2010-2014</td>
-            </tr>
-            <tr>
-              <td>Антея</td>
-              <td>Дизайнер</td>
-              <td>2015-2017</td>
-            </tr>
-            <tr>
-              <td>АО МТУ "Кристалл"</td>
-              <td>Инженер</td>
-              <td>2017-</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="card_table">
+          <h2>Опыть работы</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Название</th>
+                <th>Должность</th>
+                <th>Год</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Косистем</td>
+                <td>Сборщик ПК</td>
+                <td>2006-2007</td>
+              </tr>
+              <tr>
+                <td>Нагваль</td>
+                <td>Верстальщик</td>
+                <td>2007-2008</td>
+              </tr>
+              <tr>
+                <td>Рекламное агентство</td>
+                <td>Дизайнер</td>
+                <td>2007-2008</td>
+              </tr>
+              <tr>
+                <td>Информреклама</td>
+                <td>Печатник-дизайнер</td>
+                <td>2010-2014</td>
+              </tr>
+              <tr>
+                <td>Антея</td>
+                <td>Дизайнер</td>
+                <td>2015-2017</td>
+              </tr>
+              <tr>
+                <td>АО МТУ "Кристалл"</td>
+                <td>Инженер</td>
+                <td>2017-</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="card kurs">
+          <h2>Мои курсы</h2>
+          <ul>
+            <li><a href="#">Получения профессии Fronend Разработчика</a></li>
+            <li><a href="#">Все уроки</a></li>
+          </ul>
+        </div>
         <div class="form_input">
           <h3>Связяться со мной</h3>
 
           <form action="#">
-            <label for="firstName">Ваше Имя:</label>
-            <input type="text" id="firstName" placeholder="Введите ваше имя" />
-            <label for="email">Ваша почты:</label>
-            <input type="email" id="emai" placeholder="Введите вашу почту" />
-            <label for="message">Ваше сообщение:</label>
-            <textarea
-              va
-              name="message"
-              id="message"
-              cols="30"
-              rows="10"
-              placeholder="Ваше сообщение"
-            ></textarea>
-            <input type="submit" value="Отправить" />
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">Ваше Имя:</label>
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="Введите ваше имя"
+                  autocomplete="off"
+                />
+              </div>
+              <div class="form-group">
+                <label for="email">Ваша почта:</label>
+                <input
+                  type="email"
+                  id="emai"
+                  placeholder="Введите вашу почту"
+                />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="message">Ваше сообщение:</label>
+
+                <textarea
+                  va
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Ваше сообщение"
+                ></textarea>
+              </div>
+            </div>
+            <input class="btn" type="submit" value="Отправить" />
           </form>
         </div>
         <br />

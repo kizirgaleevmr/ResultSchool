@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@200&display=swap");
+body {
+  color: black;
+  font-family: "Sofia", sans-serif;
+  background: #ffdead;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  padding: 15px;
+  border: 1px solid black;
+}
+
+.card {
+  margin: 15px 0 15px 0;
+  padding: 20px;
+  letter-spacing: 0.1em;
+  line-height: 26px;
+  background: white;
+}
+
+.card.HTML {
+  background: #e66125;
+}
+
+.card.HTML h2 {
+  display: inline;
+  background: #51be09;
+  padding: 5px;
+}
+
+.card.CSS {
+  background: #3262f5;
+  color: white;
+}
+
+.card.CSS h2 {
+  display: inline;
+  background: #f53939;
+  padding: 5px;
+}
+
+p a {
+  text-decoration: none;
+  background: black;
+  padding: 13px;
+  color: white;
+  border-radius: 8px;
+}
+
+button {
+  background: black;
+  padding: 13px;
+  color: white;
+  border-radius: 8px;
+}
+
+.colors {
+  color: #ff00ff;
+}
+
+.colors1 {
+  color: #ee82ee;
+}
+
+.colors2 {
+  color: #8b0000;
+}
+
+.colors3 {
+  color: #ff4500;
+}
+
+.colors4 {
+  color: #008b8b;
+}
+
+.colors5 {
+  color: #2f4f4f;
+}
+
+.borders-1 {
+  border-left: 6px solid #06b2b8;
+  padding-left: 9px;
+}
+
+.borders-2 {
+  border-left: 6px solid #07c527;
+  padding-left: 9px;
+}
+
+.borders-3 {
+  border-left: 6px solid grey;
+  padding-left: 9px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list li {
+  margin-bottom: 8px;
+  border-bottom: 1px solid #2f4f4f;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table td:hover {
+  background: #2f4f4f;
+  color: white;
+}
+
+.table tr:nth-child(odd) {
+  background: #eee;
+}
+
+.table td:nth-child(2n + 2) {
+  background: #eeefff;
+}
+
+.navbar {
+  background: #ee82ee;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.navbar li:hover {
+  background: #eee;
+}
+
+.navbar li:last-child {
+  margin-right: 0;
+}
+
+.inline li {
+  display: inline;
+}
+
+.box {
+  width: 32%;
+  padding: 5px;
+  border: 1px solid black;
+  background: #f4f4f4;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+img {
+  margin: 40px auto;
+  display: block;
+}
+
+.playground {
+  position: relative;
+  border: 4px solid black;
+  height: 300px;
+  padding: 20px;
+}
+
+.pos-box {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: coral;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#header {
+  margin-top: 50px;
+}
